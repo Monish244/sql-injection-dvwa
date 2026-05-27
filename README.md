@@ -14,7 +14,7 @@ The objective of this project is to demonstrate a basic SQL Injection vulnerabil
 - Localhost environment using XAMPP
 - DVWA security level set to Low
 
-# SQL Injection Payload Used
+## SQL Injection Payload Used
 
 ```sql
 1' OR '1'='1
