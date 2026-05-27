@@ -1,32 +1,32 @@
- SQL Injection Demonstration using DVWA
+## SQL Injection Demonstration using DVWA
 
- Objective
+## Objective
 The objective of this project is to demonstrate a basic SQL Injection vulnerability using DVWA (Damn Vulnerable Web Application) in low security mode.
 
- Tools Used
+## Tools Used
 - DVWA
 - XAMPP
 - MySQL
 - PHP
 - Browser
 
- Environment
+## Environment
 - Localhost environment using XAMPP
 - DVWA security level set to Low
 
- SQL Injection Payload Used
+# SQL Injection Payload Used
 
 ```sql
 1' OR '1'='1
 ```
 
- Explanation
+## Explanation
 
 The SQL Injection payload modifies the backend SQL query by adding a condition that always evaluates to TRUE.
 
 This allows the application to return unintended database records.
 
- Steps Performed
+## Steps Performed
 
 1. Installed XAMPP
 2. Configured DVWA on localhost
@@ -35,10 +35,18 @@ This allows the application to return unintended database records.
 5. Entered SQL Injection payload
 6. Observed vulnerable behavior
 
- Result
+## Result
 
 The application displayed unintended user data due to improper input validation.
 
- Conclusion
+## Conclusion
 
 This project demonstrates how insecure handling of user input can lead to SQL Injection vulnerabilities in web applications.
+
+## Learning Outcomes
+
+- Learned the importance of patch management in cybersecurity.
+- Understood the risks associated with unpatched systems and software vulnerabilities.
+- Gained knowledge about real-world cyberattacks caused by missing updates.
+- Learned best practices for maintaining secure and updated systems.
+- Improved understanding of vulnerability management and system security maintenance.
