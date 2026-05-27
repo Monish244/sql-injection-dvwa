@@ -1,0 +1,11 @@
+Payload Used:
+1' OR '1'='1
+
+Objective:
+Demonstrate SQL Injection vulnerability in DVWA low security mode.
+
+Explanation:
+The SQL payload modifies the backend query logic by adding a true condition.
+
+Result:
+The application returned unintended database records, demonstrating improper input validation and SQL Injection vulnerability.
